@@ -1,14 +1,18 @@
-
-
 const Categories = ({ categories, filterAnimals }) => {
   return (
     <div className="btn-container">
-       <button className="filter-btn" onClick={() => filterAnimals('all')}>
-         All
-       </button>
-       <button className="filter-btn" onClick={() => filterAnimals('mammals')}>
-         Mammals
-       </button>
+       {categories.map((category, index) => {
+          return (
+            <button 
+              type="button" 
+              className="filter-btn" 
+              key={index}
+              onClick={() => filterAnimals(category)}
+            >
+            {category}
+            </button>
+          );
+       })}
     </div>
   );
 };

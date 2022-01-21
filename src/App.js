@@ -17,23 +17,20 @@ function App() {
       return;
     }
     const newAnimals = animals.filter((animal) => animal.category === category);
-    setAnimalSpecies(newAnimals)
+    setAnimalSpecies(newAnimals);
   };
 
   return (
     <div className="app">
        <div className="title">
          <h2>Animals</h2>
-         <div className="underline">
-
-         </div>
-        
+         <div className="underline"></div>
        </div>
        <Categories 
          categories={categories}
          filterAnimals={filterAnimals} 
         />
-       <Animal />
+       <Animal animals={animalSpecies} />
     </div>
   );
 }

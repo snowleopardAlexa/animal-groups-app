@@ -1,6 +1,4 @@
-import animals from '../data/data';
-
-const Animal = () => {
+const Animal = ({ animals }) => {
   return (
     <div className="section-center">
       {animals.map((animalSpecies) => {
