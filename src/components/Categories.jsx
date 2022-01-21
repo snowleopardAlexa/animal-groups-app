@@ -1,6 +1,6 @@
 
 
-const Categories = ({ filterAnimals }) => {
+const Categories = ({ categories, filterAnimals }) => {
   return (
     <div className="btn-container">
        <button className="filter-btn" onClick={() => filterAnimals('all')}>

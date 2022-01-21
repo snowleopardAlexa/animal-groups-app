@@ -4,10 +4,12 @@ import Categories from './components/Categories';
 import animals from './data/data';
 import './App.css';
 
+const allCategories = ['all', ...new Set(animals.map((animal) => animal.category))];
+
 function App() {
 
   const [animalSpecies, setAnimalSpecies] = useState(animals);
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(allCategories);
 
   const filterAnimals = (category) => {
     if (category === 'all') {
@@ -27,7 +29,10 @@ function App() {
          </div>
         
        </div>
-       <Categories filterAnimals={filterAnimals} />
+       <Categories 
+         categories={categories}
+         filterAnimals={filterAnimals} 
+        />
        <Animal />
     </div>
   );
