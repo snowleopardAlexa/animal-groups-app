@@ -16,97 +16,97 @@ const animals = [
         id: 1,
         title: 'Flamingo',
         category: 'bird',
-        status: 'safe',
+        status: 'Endangered',
         img: flamingo,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 2,
         title: 'Badger',
         category: 'mammal',
-        status: 'safe',
+        status: 'Vulnerable',
         img: badger,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 3,
         title: 'Snake',
         category: 'reptile',
-        status: 'safe',
+        status: 'Vulnerable',
         img: snake,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 4,
         title: 'Eel',
         category: 'fish',
-        status: 'safe',
+        status: 'Least Concern',
         img: eel,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 5,
         title: 'Crocodile',
         category: 'reptile',
-        status: 'safe',
+        status: 'Critically Endangered',
         img: crocodile,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 6,
         title: 'Toad',
         category: 'amphibian',
-        status: 'safe',
+        status: 'Near Threatened',
         img: toad,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 7,
         title: 'Frog',
         category: 'amphibian',
-        status: 'safe',
+        status: 'Vulnerable',
         img: frog,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 8,
         title: 'Tortoise',
         category: 'reptile',
-        status: 'safe',
+        status: 'Least Concern',
         img: tortoise,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 9,
         title: 'Salamander',
         category: 'amphibian',
-        status: 'safe',
+        status: 'Vulnerable',
         img: salamander,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 10,
         title: 'Impala',
         category: 'mammal',
-        status: 'safe',
+        status: 'Least Concern',
         img: impala,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 11,
         title: 'Toucan',
         category: 'bird',
-        status: 'safe',
+        status: 'Critically Endangered',
         img: toucan,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
     {
         id: 12,
         title: 'Shark',
         category: 'fish',
-        status: 'safe',
+        status: 'Vulnerable',
         img: shark,
-        desc: `Flamingos are fabulous birds that are very social...`
+        desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
     },
 ]
 
