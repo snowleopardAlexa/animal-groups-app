@@ -7,6 +7,9 @@ import toad from '../img/toad.jpg';
 import frog from '../img/frog.jpg';
 import salamander from '../img/salamander.jpg';
 import tortoise from '../img/tortoise.jpg';
+import impala from '../img/impala.jpg';
+import toucan from '../img/toucan.jpg';
+import shark from '../img/shark.jpg';
 
 const animals = [
     {
@@ -28,7 +31,7 @@ const animals = [
     {
         id: 3,
         title: 'Snake',
-        category: 'Amphibian',
+        category: 'reptile',
         status: 'safe',
         img: snake,
         desc: `Flamingos are fabulous birds that are very social...`
@@ -79,6 +82,30 @@ const animals = [
         category: 'amphibian',
         status: 'safe',
         img: salamander,
+        desc: `Flamingos are fabulous birds that are very social...`
+    },
+    {
+        id: 10,
+        title: 'Impala',
+        category: 'mammal',
+        status: 'safe',
+        img: impala,
+        desc: `Flamingos are fabulous birds that are very social...`
+    },
+    {
+        id: 11,
+        title: 'Toucan',
+        category: 'bird',
+        status: 'safe',
+        img: toucan,
+        desc: `Flamingos are fabulous birds that are very social...`
+    },
+    {
+        id: 12,
+        title: 'Shark',
+        category: 'fish',
+        status: 'safe',
+        img: shark,
         desc: `Flamingos are fabulous birds that are very social...`
     },
 ]
