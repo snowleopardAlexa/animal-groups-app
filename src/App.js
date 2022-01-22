@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Menu from './components/Menu';
+import Animal from './components/Animal';
 import Categories from './components/Categories';
 import animals from './data/data';
 import './App.css';
@@ -17,7 +17,7 @@ function App() {
 
          </div>
          <Categories />
-         <Menu />
+         <Animal />
        </div>
     </div>
   );
