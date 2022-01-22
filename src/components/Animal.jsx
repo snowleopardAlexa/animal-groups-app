@@ -1,14 +1,15 @@
 import React from 'react';
+import animals from '../data/data';
 
-const Animal = ({ animals }) => {
+const Animal = () => {
   return (
     <div className="section-center">
-      {animals.map((animalSpecie) => {
-        const {id, title, img, desc} = animalSpecie;
+      {animals.map((animalSpecies) => {
+        const { id, title, img, desc } = animalSpecies;
         return (
-         <article key={id} className="animal-item">
-           <img src={img} alt={title} className="photo" />
-         </article>
+          <article key={id} className="menu-item">
+            <img src={img} alt={title} className="photo" />
+          </article>
         );
       })}
     </div>

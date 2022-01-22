@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  const [animalSpecie, setAnimalSpecies] = useState(animals);
+  const [animalSpecies, setAnimalSpecies] = useState(animals);
   const [categories, setCategories] = useState([]);
 
   return (
@@ -16,9 +16,9 @@ function App() {
          <div className="underline">
 
          </div>
-         <Categories />
-         <Animal />
+        
        </div>
+       <Animal />
     </div>
   );
 }
