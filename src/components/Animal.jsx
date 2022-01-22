@@ -14,6 +14,7 @@ const Animal = () => {
                 <h4>{title}</h4>
                 <h4 className="status">{status}</h4>
               </header>
+              <p className="animal-text">{desc}</p>
             </div>
           </article>
         );
