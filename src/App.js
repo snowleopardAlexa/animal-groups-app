@@ -10,7 +10,11 @@ function App() {
   const [categories, setCategories] = useState([]);
 
   const filterAnimals = (category) => {
-    const newAnimals = animals.filter((animal) => animal.category === category)
+    if (category === 'all') {
+      setAnimalSpecies(animals);
+      return;
+    }
+    const newAnimals = animals.filter((animal) => animal.category === category);
     setAnimalSpecies(newAnimals)
   };
 
