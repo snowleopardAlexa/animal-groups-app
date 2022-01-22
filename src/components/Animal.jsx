@@ -1,4 +1,3 @@
-import React from 'react';
 import animals from '../data/data';
 
 const Animal = () => {

@@ -9,6 +9,11 @@ function App() {
   const [animalSpecies, setAnimalSpecies] = useState(animals);
   const [categories, setCategories] = useState([]);
 
+  const filterAnimals = (category) => {
+    const newAnimals = animals.filter((animal) => animal.category === category)
+    setAnimalSpecies(newAnimals)
+  };
+
   return (
     <div className="app">
        <div className="title">
@@ -18,6 +23,7 @@ function App() {
          </div>
         
        </div>
+       <Categories filterAnimals={filterAnimals} />
        <Animal />
     </div>
   );
