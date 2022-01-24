@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import Animal from './components/Animal';
+import Categories from './components/Categories';
+import animals from './data/data';
 import './App.css';
 
 function App() {
+
+  const [animalSpecies, setAnimalSpecies] = useState(animals);
+  const [categories, setCategories] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+       <div className="title">
+         <h2>Animals</h2>
+         <div className="underline">
+
+         </div>
+        
+       </div>
+       <Animal />
     </div>
   );
 }
