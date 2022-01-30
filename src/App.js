@@ -9,7 +9,7 @@ const allCategories = ['all', ...new Set(animals.map((animal) => animal.category
 function App() {
 
   const [animalSpecies, setAnimalSpecies] = useState(animals);
-  const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
 
   const filterAnimals = (category) => {
     if (category === 'all') {
